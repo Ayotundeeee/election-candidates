@@ -14,7 +14,7 @@
     overflow: scroll;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .list-container {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -26,13 +26,13 @@
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     .list-container {
         grid-template-columns: repeat(5, 1fr);
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 200px) {
     .list-container {
         grid-template-columns: 1fr;
     }
