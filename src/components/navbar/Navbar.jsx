@@ -1,10 +1,11 @@
 import React from 'react'
 import "./navbar.css"
+import flag from "../navbar/image.png"
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <img src="./src/assets/image.png" alt="" />
+      <img src={flag} alt="" />
     </div>
   )
 }
