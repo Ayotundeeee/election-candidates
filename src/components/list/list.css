@@ -1,6 +1,6 @@
 .list-div {
     background-color: rgb(237, 224, 216);
-    padding: 0 15px;
+    padding: 0 15px 10px 15px;
 }
 
 .title {
@@ -12,4 +12,28 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     overflow: scroll;
+}
+
+@media (max-width: 500px) {
+    .list-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .list-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 600px) {
+    .list-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 300px) {
+    .list-container {
+        grid-template-columns: 1fr;
+    }
 }
