@@ -1,0 +1,15 @@
+.list-div {
+    background-color: rgb(237, 224, 216);
+    padding: 0 15px;
+}
+
+.title {
+    margin: 20px 0;
+}
+
+.list-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    overflow: scroll;
+}
